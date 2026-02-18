@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:ucfknights.com)",
+      "WebFetch(domain:www.additionfiarena.com)",
+      "WebFetch(domain:www.boxofficeticketsales.com)"
+    ]
+  }
+}

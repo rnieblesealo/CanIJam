@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+
+# Vite
+*.local
+
+# Go
+backend/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
