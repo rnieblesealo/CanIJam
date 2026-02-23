@@ -146,3 +146,31 @@ TECH STACK
 
 * GOLANG ( BACKEND ) 
     rationale: good way to learn go for my job, also it's a great language for this!
+
+
+==========================================================================================
+LEARNING/OTHER NOTES
+==========================================================================================
+
+USED AI FOR:
+	parsing webscraped json
+
+USED BRAIN FOR:
+	figuring out how & what to webscrape
+	
+* how is is that we can call these APIs and get OK responses? 
+* how does the remote accept us even though we aren't the UCF client? 
+* is there a way to add a protection for this?
+* understand this url structure:
+
+  const params = new URLSearchParams({
+      keyword: "Addition Financial Arena",
+      utm_source: "bing",
+      utm_medium: "cpc",
+      utm_campaign: "Venues>SS>Combined>Nat>Head Keyword>Exact",
+      utm_term: "Addition Financial Arena",
+      utm_content:
+        "Venues>SS>Combined>Nat>Tier 1>Addition Financial Arena>659>Orlando>FL>EDT>534>Multi-Purpose Venue",
+    });
+
+  what is a campaign? what is utm? what is all of this?
