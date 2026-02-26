@@ -81,9 +81,14 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <img src="/logo.png" className="p-4" />
+
       <div className="flex flex-col flex-1 my-8">
         <span className="m-4">EVENT LOG</span>
         {content}
+      </div>
+
+      {/* navbar */}
+      <div className="w-full h-16 bg-linear-to-b from-gray-600 to-gray-900 fixed bottom-0 flex">
       </div>
     </div>
   )
