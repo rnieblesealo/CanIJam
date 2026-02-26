@@ -21,7 +21,7 @@ function App() {
     fetchArenaEvents()
       .then((res) => {
         setEvents(res)
-        // setLoading(false)
+        setLoading(false)
       })
       .catch((err) => {
         console.log("Error fetching arena events: ", err)
@@ -57,7 +57,7 @@ function App() {
 
             return (
               <tr key={i} className={`h-24 ${darkOrLightRow ? "bg-gray-900" : "bg-black"}`}>
-                <td className="w-1/3">
+                <td className="w-1/3 p-4">
                   <span className="line-clamp-2">{event.name}</span>
                 </td>
                 <td className="w-1/3">
