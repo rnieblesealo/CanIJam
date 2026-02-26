@@ -9,7 +9,7 @@ interface ArenaEventsResult {
   arena_events: ArenaEvent[];
 }
 
-async function fetchArenaEvents(): Promise<ArenaEventsResult> {
+export async function fetchArenaEvents(): Promise<ArenaEventsResult> {
   const params = new URLSearchParams({
     keyword: "Addition Financial Arena",
     utm_source: "bing",

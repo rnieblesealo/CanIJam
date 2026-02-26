@@ -174,3 +174,8 @@ USED BRAIN FOR:
     });
 
   what is a campaign? what is utm? what is all of this?
+
+*** HOW DOES CORS/SAME ORIGIN WORK? understand in detail
+    fix by adding access-control-allow-origin *
+    need a backend! express for this
+    learn to clean up axios calls; understand their behavior
